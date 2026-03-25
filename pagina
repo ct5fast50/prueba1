@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitio en construcción</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f4f7fb, #e9eef5);
+      color: #1f2937;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 720px;
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 56px 40px;
+      box-shadow: 0 12px 40px rgba(15, 23, 42, 0.10);
+      text-align: center;
+      border: 1px solid #e5e7eb;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #e8f0fb;
+      color: #1d4ed8;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      line-height: 1.2;
+      color: #111827;
+    }
+
+    p {
+      margin: 18px auto 0;
+      max-width: 560px;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #4b5563;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 42px 24px;
+      }
+
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="card">
+    <div class="tag">Sitio oficial</div>
+    <h1>Página en construcción</h1>
+    <p>
+      Estamos trabajando para brindarle una mejor experiencia. Muy pronto nuestro sitio web estará disponible con información sobre nuestros productos y servicios.
+    </p>
+    <div class="footer">
+      Gracias por su comprensión.
+    </div>
+  </section>
+</body>
+</html>
